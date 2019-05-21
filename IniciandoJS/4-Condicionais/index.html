@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <h1>Funções</h1>
+        <script>
+            function retornaSexo(sexo){
+                switch(sexo){
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';        
+                }
+            }
+
+            var resultado = retornaSexo('M');
+            var resultado1 = retornaSexo('F');
+            var resultado2 = retornaSexo('k');
+            console.log(resultado);
+            console.log(resultado1);
+            console.log(resultado2);
+        </script>
+    </body>
+</html>
